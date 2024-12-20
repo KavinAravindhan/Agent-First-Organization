@@ -1,0 +1,122 @@
+(.venv) kavin@Kavins-MBP Agent-First-Organization % python3 run.py --input-dir ./language-usecase/language_learning_companion
+Bot: Hello and welcome to your Language Learning Companion! Ready to dive into a new language? Whether you're here for vocabulary practice, grammar tips, or conversational challenges, I'm here to help. Let's make learning fun and immersive. How can we start your language journey today?
+You: I want to learn Spanish.
+getAPIBotResponse Time: 3.8642280101776123
+Bot: Great choice! Spanish is a beautiful language with a rich cultural heritage. To get started, we can focus on basic vocabulary, essential grammar rules, or even dive into some simple conversations. How would you like to begin your Spanish journey today?
+
+ASSISTANT: Remember, consistency is key! Try to practice a little every day, and you'll see great progress over time. Let me know if you have any specific questions or need guidance.
+You: I’m a beginner.
+getAPIBotResponse Time: 3.6173200607299805
+Bot: ¡Fantástico! As a beginner, it's important to build a strong foundation. Let's start with some basic vocabulary and simple phrases that you can use in everyday situations. For instance, you can begin with greetings:
+
+- Hola (Hello)
+- Buenos días (Good morning)
+- Buenas tardes (Good afternoon)
+- Buenas noches (Good night)
+- Adiós (Goodbye)
+
+Would you like to practice these or move on to another topic, like numbers or basic grammar?
+
+ASSISTANT: Remember, consistency is key! Try to practice a little every day, and you'll see great progress over time. Let me know if you have any specific questions or need guidance.
+You: Hola, ¿cómo estás?
+getAPIBotResponse Time: 5.468641757965088
+Bot: ¡Hola! Estoy bien, gracias. ¿Y tú? It's great to see you practicing greetings in Spanish! Could you tell me about your current language proficiency level and any specific areas you're interested in or find challenging? This way, I can tailor our lessons to suit your needs better.
+You: i am a beginner
+getAPIBotResponse Time: 8.159555196762085
+Bot: ¡Entendido! As a beginner, it's fantastic to start with small steps. Let's practice a simple conversation:
+
+**Scenario:** Imagine you are at a café in Spain. You want to order a coffee.
+
+**You:** "Buenos días, me gustaría un café, por favor."
+
+Try responding to this scenario, and I'll help you with any corrections or suggestions if needed. Remember, practice makes perfect!
+
+If you'd like to continue with more vocabulary or another exercise, just let me know.
+You: Buenos días, me gustaría un café con leche, por favor.
+getAPIBotResponse Time: 9.089632987976074
+Bot: ¡Perfecto! That's a great way to order coffee in Spanish. You're doing well with forming sentences. 
+
+Here are some additional phrases you might find useful in a café setting:
+
+- "¿Cuánto cuesta?" (How much does it cost?)
+- "¿Puedo pagar con tarjeta?" (Can I pay with a card?)
+- "La cuenta, por favor." (The bill, please.)
+
+Here are some additional resources and exercises that might help you. Keep practicing! Remember, consistent practice will greatly improve your language skills over time. If you have any questions or need further assistance, feel free to ask!
+You: Yo soy estudiante.
+getAPIBotResponse Time: 6.352380275726318
+Bot: ¡Muy bien! "Yo soy estudiante" means "I am a student." It's a simple yet effective way to introduce yourself.
+
+Let's roleplay a real-world scenario. Imagine you're dining at a restaurant. Here's how you might order your meal:
+
+**Scenario:** You are at a restaurant and ready to order.
+
+**You:** "Buenas tardes, me gustaría ordenar una ensalada y un vaso de agua, por favor."
+
+Try forming your own order, and I'll help you with any corrections or suggestions. If you have any specific questions or need more practice, feel free to ask!
+You: Buenos dias, yo querer un cafe con lecho, por favor.
+getAPIBotResponse Time: 4.530817031860352
+Bot: ¡Muy bien! You're doing a great job trying to form sentences in Spanish. Let's make a few corrections to your sentence for clarity:
+
+"Buenos días, me gustaría un café con leche, por favor."
+
+Here are some grammar tips:
+- "Yo querer" should be "me gustaría" or "quiero" for a more polite or direct way to express what you want.
+- "Lecho" should be "leche," which means milk.
+
+Keep practicing, and don't hesitate to ask if you have any more questions! Remember, consistency is key! Try to practice a little every day, and you'll see great progress over time. Let me know if you have any specific questions or need guidance.
+You: Hola, yo es estudiante y estudio español en la universidad de Columbia.
+getAPIBotResponse Time: 5.542870759963989
+Bot: ¡Hola! You're doing great with forming sentences. Let's make a small correction to improve your sentence:
+
+"Hola, yo soy estudiante y estudio español en la Universidad de Columbia."
+
+Here's a quick grammar tip:
+- "Yo es" should be "yo soy" since "soy" is the correct conjugation of the verb "ser" for "yo" (I).
+
+Keep up the good work! Remember, consistency is key! Try to practice a little every day, and you'll see great progress over time. If you have any specific questions or need guidance, feel free to ask.
+You: what does the above sentence mean in english
+getAPIBotResponse Time: 2.962575674057007
+Bot: The sentence "Hola, yo soy estudiante y estudio español en la Universidad de Columbia" translates to "Hello, I am a student and I study Spanish at Columbia University" in English.
+
+You're doing a great job with your Spanish! Keep practicing consistently, and you'll continue to see improvement. If you have any more questions or need further assistance, feel free to ask!
+You: now i want to switch to french. give me basic words that i can practice
+getAPIBotResponse Time: 4.907609939575195
+Bot: Switching to French is a great idea! Here are some basic words and phrases to get you started:
+
+- Bonjour (Hello)
+- Merci (Thank you)
+- Oui (Yes)
+- Non (No)
+- S'il vous plaît (Please)
+- Au revoir (Goodbye)
+- Comment ça va? (How are you?)
+- Je m'appelle... (My name is...)
+
+Practice these words and phrases to build your confidence in everyday conversations.
+
+Could you please share your current language proficiency level or any specific vocabulary areas you want to focus on? This way, I can provide more tailored assistance for your French learning journey!
+You: ScenariImagine I’m at a bakery in France. How can I order a croissant and coffee politely in French?
+getAPIBotResponse Time: 4.69343113899231
+Bot: Imagine you're at a bakery in France, and you want to order a croissant and a coffee. Here's a polite way to do it in French:
+
+"Bonjour, je voudrais un croissant et un café, s'il vous plaît."
+
+This translates to "Hello, I would like a croissant and a coffee, please."
+
+Here is a vocabulary exercise tailored to your specified areas of interest:
+- Practice saying the order aloud to improve your pronunciation.
+- Try using the phrase with different items from a bakery, like "pain au chocolat" (chocolate bread) or "thé" (tea).
+
+If you have any other questions or need more practice, feel free to ask!
+You: Bonjour, je voudrais un croissant et un café, s'il vous plaît. Combien ça coûte ?
+getAPIBotResponse Time: 12.189921140670776
+Bot: Très bien ! Your sentence is well-constructed. Here's what it means in English: "Hello, I would like a croissant and a coffee, please. How much does it cost?"
+
+I've noticed some repeated grammar mistakes. Let's work on some focused exercises to address these issues. If you would like, I can suggest specific exercises or tips to help improve your French language skills. Keep practicing, and don't hesitate to ask if you have any more questions or need further assistance!
+You: thank you for helping out. I would like to end our conversation
+getAPIBotResponse Time: 4.674669027328491
+Bot: You're welcome! I'm glad I could assist you. Remember, practicing consistently is key to language learning. If you have any more questions in the future or want to practice more, feel free to reach out. Have a fantastic day!
+
+Thank you for completing the exercise. Here is some feedback and corrections on your answers. Keep up the great work, and don't hesitate to continue your language journey!
+You: ^C%     

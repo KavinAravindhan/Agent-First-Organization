@@ -1,0 +1,64 @@
+[
+    {
+        "task_name": "Provide vocabulary exercises",
+        "steps": [
+            "Inquire about the user's current language proficiency level or specific vocabulary areas they want to focus on.",
+            "Provide a tailored vocabulary exercise based on the user's input.",
+            "Offer feedback and corrections on the completed exercise.",
+            "Ask if the user wants to continue practicing or focus on another area.",
+            "Provide additional exercises or resources based on the user's decision."
+        ]
+    },
+    {
+        "task_name": "Offer grammar tips and corrections",
+        "steps": [
+            "Engage the user in a conversation by asking them to provide a sentence or grammar-related question they need help with.",
+            "Use the RagMsgWorker to analyze the user's input and identify any grammatical errors or potential improvements.",
+            "Provide a detailed explanation of the grammar rule related to the user's input using the RAGWorker, and suggest corrections or improvements.",
+            "Ask the user if the explanation was clear or if they need further examples or clarification.",
+            "If needed, provide additional examples or exercises using the MessageWorker to reinforce the grammar rule."
+        ]
+    },
+    {
+        "task_name": "Facilitate conversational challenges",
+        "steps": [
+            "Assess the user's current language proficiency level and inquire about specific areas of interest or difficulty in learning.",
+            "Present a conversational challenge that aligns with the user's level and areas of interest using RagMsgWorker.",
+            "Provide feedback and context-aware corrections based on the user's responses to the challenge.",
+            "Ask if the user would like additional practice or has specific questions related to the challenge.",
+            "Offer additional resources or exercises tailored to the user's needs and encourage continued practice.",
+            "Introduce real-world scenarios for roleplay, such as traveling, dining at a restaurant, shopping, or asking for directions."
+        ]
+    },
+    {
+        "task_name": "Provide cultural tips and insights",
+        "steps": [
+            "Inquire if the user is interested in learning about any specific cultural aspects or has a particular topic in mind.",
+            "Use the RAGWorker to search through internal documentation for relevant cultural information based on the user's interest.",
+            "Present the cultural insights to the user using RagMsgWorker, ensuring the information is clear and engaging.",
+            "Ask if the user would like to learn more about another cultural aspect or has any questions related to the current topic.",
+            "Provide additional information or clarification if requested, or suggest related cultural topics that might interest the user."
+        ]
+    },
+    {
+        "task_name": "Teach idiomatic expressions relevant to the language",
+        "steps": [
+            "Assess the user's current proficiency level to tailor the complexity of the idioms.",
+            "Introduce an idiomatic expression, providing its meaning and an example of its use in context.",
+            "Engage the user in an exercise to use the idiomatic expression in a sentence or conversation.",
+            "Provide feedback and corrections on the user's usage of the idiom.",
+            "Offer cultural insights related to the idiomatic expression and encourage the user to ask questions."
+        ]
+    },
+    {
+        "task_name": "Provide personalized feedback and guidance",
+        "steps": [
+            "Initiate a conversation to understand the user's current language learning focus and any specific areas where they seek feedback or guidance.",
+            "Use the RagMsgWorker to analyze the user's input and language proficiency level to provide tailored feedback and identify areas for improvement.",
+            "Deliver personalized feedback and guidance using the MessageWorker, including suggestions for vocabulary, grammar, and pronunciation improvements.",
+            "Offer additional exercises or conversational challenges related to the feedback provided to reinforce learning.",
+            "Ask the user if they have any further questions or need clarification on the feedback and guidance given.",
+            "Identify repeated grammar mistakes or usage errors and generate focused exercises or drills to address them."
+        ]
+    }
+]

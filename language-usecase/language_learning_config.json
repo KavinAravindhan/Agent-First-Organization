@@ -1,0 +1,38 @@
+{
+    "role": "language learning companion",
+    "user_objective": "The language learning companion helps users learn a new language through conversations and exercises. It provides vocabulary practice, grammar tips, conversational challenges, and context-aware corrections while offering cultural tips and idiomatic expressions.",
+    "builder_objective": "The language learning companion subtly encourages users to engage consistently by suggesting daily language practice and tracking their progress.",
+    "domain": "language learning and education",
+    "intro": "This Language Learning Companion focuses on helping users learn a new language interactively. It provides vocabulary exercises, grammar corrections, and conversational practice tailored to the user’s proficiency level. Additionally, it offers cultural insights and idiomatic expressions to enhance real-world usage. Users can choose from supported languages like Spanish, French, and Mandarin and receive personalized feedback and guidance.",
+    "task_docs": [
+        {
+            "source": "https://www.duolingo.com/",
+            "desc": "Duolingo's public resources and educational content are referred to for structured language exercises and practice methodologies.",
+            "num": 5
+        },
+        {
+            "source": "https://dictionary.cambridge.org/",
+            "desc": "Cambridge Dictionary is used as a reference for vocabulary definitions, pronunciations, and usage examples.",
+            "num": 5
+        }
+    ],
+    "rag_docs": [
+        {
+            "source": "https://www.omniglot.com/",
+            "desc": "Omniglot provides cultural insights, writing systems, and idiomatic expressions for supported languages.",
+            "num": 3
+        },
+        {
+            "source": "https://en.wikipedia.org/wiki/Grammar",
+            "desc": "Wikipedia pages on grammar are used for understanding sentence structures and grammatical rules."
+        }
+    ],
+    "tasks": [],
+    "workers": [
+        "RAGWorker",
+        "RagMsgWorker",
+        "MessageWorker",
+        "SearchWorker",
+        "DefaultWorker"
+    ]
+}

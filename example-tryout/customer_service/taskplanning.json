@@ -1,0 +1,59 @@
+[
+    {
+        "task_name": "Provide product availability details",
+        "steps": [
+            "Provide product availability details"
+        ]
+    },
+    {
+        "task_name": "Provide information on delivery schedules",
+        "steps": [
+            "Provide information on delivery schedules"
+        ]
+    },
+    {
+        "task_name": "Assist in understanding product rental options",
+        "steps": [
+            "Greet the user and inquire about their interest in product rental options, asking if they need information on specific products or general rental policies.",
+            "Use RAGWorker to access internal documentation and provide detailed information about the rental options available, including duration, costs, and any special requirements.",
+            "Ask the user if they have any specific questions about the rental process, such as the return policy, late fees, or product availability.",
+            "Clarify any additional queries the user may have by providing further details from the documentation or summarizing key points about the rental terms.",
+            "Confirm if the user is interested in proceeding with a rental or needs further assistance, and provide guidance on the next steps if they choose to proceed."
+        ]
+    },
+    {
+        "task_name": "Help in resolving transaction-related issues",
+        "steps": [
+            "Inquire about the transaction details, such as order number, date, and specific issue.",
+            "Provide possible solutions or steps to resolve the issue based on company policies and FAQs using RAGWorker.",
+            "Ask if the proposed solution resolved the user's issue.",
+            "If the issue is unresolved, offer to escalate to a human representative or provide additional help."
+        ]
+    },
+    {
+        "task_name": "Provide detailed product feature and capability information",
+        "steps": [
+            "Greet the user and ask what specific product or feature information they are interested in.",
+            "Use the RAGWorker to retrieve detailed information about the requested product features and capabilities from the company's internal documentation.",
+            "Present the detailed product information to the user and ask if there are any other features or capabilities they would like to know about.",
+            "If the user requests additional information, repeat step 2 to provide further details. If no further information is needed, ask if there's anything else you can assist them with.",
+            "Conclude the interaction by confirming the user has received all necessary information and offer further assistance if needed."
+        ]
+    },
+    {
+        "task_name": "Provide information on service and maintenance policies",
+        "steps": [
+            "Provide information on service and maintenance policies"
+        ]
+    },
+    {
+        "task_name": "Provide support for product setup and usage",
+        "steps": [
+            "Initiate conversation to identify the specific product or service the user needs help with.",
+            "Use RAGWorker to access internal documentation and retrieve relevant setup instructions or usage guidelines for the identified product.",
+            "Provide the user with the retrieved setup instructions or usage guidelines.",
+            "Ask the user if they need further clarification or have additional questions about the product setup or usage.",
+            "If the user has further questions, continue to assist using the RAGWorker to provide more detailed information. If needed, escalate the issue to a human representative for further assistance."
+        ]
+    }
+]

@@ -43,4 +43,6 @@ Thumbs.db
 .env
 temp_files
 
+# Added By Kavin
+.venv
 env.txt

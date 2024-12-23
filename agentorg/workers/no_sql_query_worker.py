@@ -8,10 +8,10 @@ from agentorg.utils.graph_state import MessageState
 from agentorg.utils.model_config import MODEL
 
 # We'll import our local NLP/Query building modules
-from agentorg.nlp.intent_detection import IntentDetector
-from agentorg.nlp.spell_check import SpellChecker
-from agentorg.nlp.query_builder import QueryBuilder
-from agentorg.nlp.db_connector import DBConnector
+from agentorg.nosql.intent_detection import IntentDetector
+from agentorg.nosql.spell_check import SpellChecker
+from agentorg.nosql.query_builder import QueryBuilder
+from agentorg.nosql.db_connector import DBConnector
 
 logger = logging.getLogger(__name__)
 

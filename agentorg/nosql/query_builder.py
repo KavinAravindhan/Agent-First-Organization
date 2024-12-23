@@ -1,4 +1,4 @@
-from agentorg.nlp.keywords import KeywordExtractor
+from agentorg.nosql.keywords import KeywordExtractor
 
 class QueryBuilder:
     """

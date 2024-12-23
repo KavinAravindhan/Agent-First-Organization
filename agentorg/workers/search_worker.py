@@ -8,8 +8,21 @@ from agentorg.utils.graph_state import MessageState
 from agentorg.workers.tools.RAG.utils import SearchEngine, ToolGenerator
 from agentorg.utils.model_config import MODEL
 
+# Adding for trace logger
+from agentorg.utils.trace_logger import TraceLogger
+
 
 logger = logging.getLogger(__name__)
+
+
+# Adding for trace logger
+trace_logger = TraceLogger()  # Create a global or instance-level trace logger
+
+@register_worker
+class SearchWorker(BaseWorker):
+    ...
+    
+
 
 
 @register_worker
@@ -34,6 +47,14 @@ class SearchWorker(BaseWorker):
         return workflow
 
     def execute(self, msg_state: MessageState):
+        # Start trace
+        trace_logger.start_trace("SearchWorker Execution")
+
         graph = self.action_graph.compile()
         result = graph.invoke(msg_state)
+
+        # Log the final result
+        trace_logger.log_event("SearchWorker result", {"response": result.get("response", "")})
+        trace_logger.end_trace("SearchWorker Execution Finished")
+
         return result

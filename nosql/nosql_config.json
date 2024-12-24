@@ -1,0 +1,57 @@
+{
+    "role": "NoSQL query assistant",
+    "user_objective": "The NoSQL query assistant helps users translate natural-language requests into valid database operations. It can interpret find, update, insert, or delete instructions for a MongoDB (or similar) collection, and return results or confirmations back to the user.",
+    "builder_objective": "The assistant subtly encourages best practices (e.g., confirming large or destructive operations) and logs user queries for usage analytics. It also aims to handle ambiguous user requests by prompting clarifications.",
+    "domain": "Database operations and management",
+    "intro": "This Natural Language to NoSQL Query system is designed to bridge everyday language and CRUD operations on a NoSQL database. Through a combination of spell checking, intent detection, query building, and direct database interaction, it streamlines the process of data retrieval and manipulation.",
+    
+    "task_docs": [
+      {
+        "source": "https://docs.mongodb.com/",
+        "desc": "MongoDB official documentation to understand CRUD operations, schema design, indexing, and driver usage.",
+        "num": 3
+      }
+    ],
+    "rag_docs": [
+      {
+        "source": "https://www.mongodb.com/developer/",
+        "desc": "Developer resources, tutorials, and best practices for MongoDB",
+        "num": 2
+      }
+    ],
+  
+    "tasks": [
+      {
+        "task_name": "Translate Natural Language to NoSQL Queries",
+        "steps": [
+          "Parse user input for intent (find, update, delete, insert).",
+          "Spell check and extract relevant field-value pairs or conditions.",
+          "Build a valid MongoDB query object or update document.",
+          "Execute the query against the specified database or collection.",
+          "Return formatted results or operation confirmations."
+        ],
+        "workers": [
+          "NoSQLQueryWorker",
+          "MessageWorker"
+        ]
+      },
+      {
+        "task_name": "Confirm Destructive Operations",
+        "steps": [
+          "Identify 'delete' or major 'update' requests that affect multiple documents.",
+          "Prompt user for confirmation before executing potentially destructive queries.",
+          "Proceed with execution only after user confirmation.",
+          "Provide a summary of changes made (e.g., X documents deleted)."
+        ],
+        "workers": [
+        "RAGWorker",
+        "RagMsgWorker",
+        "MessageWorker",
+        "SearchWorker",
+        "NoSQLQueryWorker",
+        "DefaultWorker"
+    ]
+      }
+    ]
+  }
+  
